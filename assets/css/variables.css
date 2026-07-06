@@ -1,0 +1,14 @@
+/* Variables globales */
+:root{
+    --black: #0A0A0A;
+    --panel: #141414;
+    --panel-2: #1C1C1C;
+    --red: #E5202A;
+    --red-deep: #8C1116;
+    --white: #F2F0EC;
+    --gray: #8A8A8A;
+    --line: rgba(242,240,236,0.08);
+    --font-display: 'Anton', 'Arial Narrow', sans-serif;
+    --font-body: 'Inter', -apple-system, sans-serif;
+  }
+
