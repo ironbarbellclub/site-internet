@@ -215,3 +215,8 @@
 .disc-card img.disc-img-contain{object-fit:contain;opacity:0.95;background:var(--black);padding:0;}
 .disc-card:hover img.disc-img-contain{opacity:1;}
 
+
+/* Photo fondateur : cadrage adapté au bloc vertical de la section */
+.founder-photo{
+  object-position:center center;
+}
