@@ -21,7 +21,7 @@
   .nav-links.is-open{
     display:flex;
     position:absolute;
-    top:72px;
+    top:calc(var(--hero-title-size) + 28px);
     left:0;
     right:0;
     flex-direction:column;
