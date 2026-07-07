@@ -102,13 +102,36 @@
   /* ===== SECTIONS ===== */
   section{padding:120px 0;}
   .split{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;}
-  .philosophy-img{position:relative;}
+  .philosophy-img{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-self:center;
+  }
   .philosophy-img img{border-radius:2px;width:100%;height:560px;object-fit:cover;}
-  .philosophy-img img.philosophy-cutout{object-fit:contain;background:var(--black);padding:20px 0;}
+  .philosophy-img img.philosophy-cutout{
+    height:auto;
+    max-height:430px;
+    object-fit:contain;
+    background:var(--black);
+    padding:0;
+  }
   .badge-float{
-    position:absolute;bottom:-24px;left:-24px;background:var(--red);
-    color:var(--black);padding:20px 24px;border-radius:2px;
-    font-family:var(--font-display);text-align:center;
+    position:absolute;
+    top:calc(100% + 14px);
+    left:0;
+    background:var(--red);
+    color:var(--black);
+    width:170px;
+    min-height:106px;
+    padding:20px 24px;
+    border-radius:2px;
+    font-family:var(--font-display);
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
   }
   .badge-float .n{font-size:26px;display:block;}
   .badge-float .l{font-size:10px;letter-spacing:0.1em;text-transform:uppercase;font-family:var(--font-body);font-weight:700;}

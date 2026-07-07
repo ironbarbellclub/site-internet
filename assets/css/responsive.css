@@ -16,6 +16,13 @@
     .cred-grid{grid-template-columns:1fr;}
     .prog-caption h3{font-size:18px;}
     .prog-caption{bottom:10px;}
+    .badge-float{
+      position:relative;
+      top:auto;
+      left:auto;
+      align-self:flex-start;
+      margin-top:14px;
+    }
   }
 
 
