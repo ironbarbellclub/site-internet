@@ -14,6 +14,8 @@
     .form-row{grid-template-columns:1fr;}
     .footer-top{grid-template-columns:1fr 1fr;}
     .cred-grid{grid-template-columns:1fr;}
+    .prog-caption h3{font-size:18px;}
+    .prog-caption{bottom:10px;}
   }
 
 
