@@ -136,7 +136,3 @@ Signature adaptable par personne/rôle :
 3. Pour chaque membre : modifie les 3 zones marquées `✏️ MODIFIER ICI` (nom, rôle, téléphone)
 4. Exemples de rôles fournis en commentaire dans le fichier
 
-## 🖼️ Images détourées (fond transparent)
-Le CSS est déjà prêt : toute image avec la classe `philosophy-cutout` s'affiche **sans fond, centrée, jamais étirée, avec une ombre portée**. Quand tu auras retiré le fond de tes photos :
-1. Exporte en **PNG** ou mieux **WebP** avec transparence (remove.bg puis squoosh.app pour compresser)
-2. Remplace le fichier dans `src/assets/images/` en gardant le même nom
