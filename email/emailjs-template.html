@@ -1,0 +1,111 @@
+<!-- ============================================================
+     TEMPLATE EMAILJS — Iron Barbell Club
+     À coller dans : EmailJS → Email Templates → ton template
+     → onglet "Design" → bouton "</>" (Edit Content / Code Editor)
+     Les variables {{prenom}}, {{nom}}, etc. sont remplies
+     automatiquement par le formulaire du site.
+     ============================================================ -->
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#0A0A0A;padding:32px 16px;font-family:Arial,Helvetica,sans-serif;">
+  <tr>
+    <td align="center">
+      <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;background-color:#141414;border:1px solid #2a2a2a;">
+
+        <!-- ===== BANDEAU ROUGE ===== -->
+        <tr>
+          <td style="background-color:#E5202A;padding:6px 0;font-size:0;line-height:0;">&nbsp;</td>
+        </tr>
+
+        <!-- ===== EN-TÊTE ===== -->
+        <tr>
+          <td align="center" style="padding:36px 40px 24px;">
+            <!-- Remplace VOTRE-SITE par ton domaine une fois en ligne -->
+            <img src="https://VOTRE-SITE.netlify.app/logo-ibc.jpeg" alt="Iron Barbell Club" width="72" height="72" style="border-radius:50%;display:block;" />
+            <h1 style="margin:18px 0 4px;color:#F2F0EC;font-size:22px;letter-spacing:2px;text-transform:uppercase;font-weight:800;">Iron Barbell Club</h1>
+            <p style="margin:0;color:#E5202A;font-size:12px;letter-spacing:3px;text-transform:uppercase;font-weight:bold;">Nouveau message du site</p>
+          </td>
+        </tr>
+
+        <!-- ===== SÉPARATEUR ===== -->
+        <tr>
+          <td style="padding:0 40px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+              <tr><td style="border-top:1px solid #2a2a2a;font-size:0;line-height:0;">&nbsp;</td></tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- ===== CONTENU ===== -->
+        <tr>
+          <td style="padding:28px 40px 8px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+              <tr>
+                <td style="padding:10px 0;border-bottom:1px solid #222222;">
+                  <span style="color:#8A8A8A;font-size:11px;letter-spacing:2px;text-transform:uppercase;font-weight:bold;">Prénom</span><br/>
+                  <span style="color:#F2F0EC;font-size:16px;">{{prenom}}</span>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding:10px 0;border-bottom:1px solid #222222;">
+                  <span style="color:#8A8A8A;font-size:11px;letter-spacing:2px;text-transform:uppercase;font-weight:bold;">Nom</span><br/>
+                  <span style="color:#F2F0EC;font-size:16px;">{{nom}}</span>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding:10px 0;border-bottom:1px solid #222222;">
+                  <span style="color:#8A8A8A;font-size:11px;letter-spacing:2px;text-transform:uppercase;font-weight:bold;">Email</span><br/>
+                  <a href="mailto:{{email}}" style="color:#E5202A;font-size:16px;text-decoration:none;">{{email}}</a>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding:10px 0;border-bottom:1px solid #222222;">
+                  <span style="color:#8A8A8A;font-size:11px;letter-spacing:2px;text-transform:uppercase;font-weight:bold;">Téléphone</span><br/>
+                  <span style="color:#F2F0EC;font-size:16px;">{{telephone}}</span>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding:10px 0;">
+                  <span style="color:#8A8A8A;font-size:11px;letter-spacing:2px;text-transform:uppercase;font-weight:bold;">Formule souhaitée</span><br/>
+                  <span style="color:#F2F0EC;font-size:16px;font-weight:bold;">{{formule}}</span>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- ===== MESSAGE ===== -->
+        <tr>
+          <td style="padding:8px 40px 32px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#0A0A0A;border-left:3px solid #E5202A;">
+              <tr>
+                <td style="padding:18px 20px;">
+                  <span style="color:#8A8A8A;font-size:11px;letter-spacing:2px;text-transform:uppercase;font-weight:bold;">Message</span><br/><br/>
+                  <span style="color:#F2F0EC;font-size:15px;line-height:1.7;white-space:pre-line;">{{message}}</span>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- ===== BOUTON RÉPONDRE ===== -->
+        <tr>
+          <td align="center" style="padding:0 40px 40px;">
+            <a href="mailto:{{email}}?subject=Re%3A%20Ta%20demande%20%E2%80%94%20Iron%20Barbell%20Club"
+               style="display:inline-block;background-color:#E5202A;color:#0A0A0A;font-size:13px;font-weight:bold;letter-spacing:2px;text-transform:uppercase;text-decoration:none;padding:14px 32px;">
+              Répondre à {{prenom}} →
+            </a>
+          </td>
+        </tr>
+
+        <!-- ===== PIED ===== -->
+        <tr>
+          <td align="center" style="background-color:#0A0A0A;border-top:1px solid #2a2a2a;padding:20px 40px;">
+            <p style="margin:0;color:#8A8A8A;font-size:11px;letter-spacing:1px;">
+              IRON BARBELL CLUB — Rueil-Malmaison · Message envoyé depuis le formulaire du site
+            </p>
+          </td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>

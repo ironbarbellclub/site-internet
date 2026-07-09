@@ -1,0 +1,225 @@
+{
+  "meta": {
+    "title": "Iron Barbell Club — Haltérophilie & Force à Rueil-Malmaison",
+    "description": "Iron Barbell Club : club d'haltérophilie olympique à Rueil-Malmaison. Coaching fédéral, technique, force et progression."
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Disciplines",
+        "href": "#disciplines"
+      },
+      {
+        "label": "Le Coach",
+        "href": "#coach"
+      },
+      {
+        "label": "Tarifs",
+        "href": "#tarifs"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "cta": "Rejoindre le club",
+    "login": "Se connecter",
+    "loginUrl": "https://app.ironbarbellclub.fr"
+  },
+  "hero": {
+    "line1": "SOULÈVE LOURD.",
+    "line2": "DEVIENS PLUS FORT.",
+    "line3": "PROGRESSE CHAQUE JOUR.",
+    "subtitle": "Que tu découvres l'haltérophilie pour la première fois ou que tu recherches un cadre exigeant pour performer en compétition, IRON BARBELL CLUB t'accueille avec un accompagnement adapté à ton niveau et à tes objectifs. Ici, chacun progresse à son rythme : les débutants acquièrent des bases techniques solides en toute sécurité, tandis que les athlètes confirmés perfectionnent leur technique et développent leur puissance. Encadré par un coach diplômé et passionné, tu rejoins une communauté où l'on s'entraîne, où l'on se dépasse et où l'on progresse ensemble. De la découverte de l'haltérophilie à la performance.",
+    "ctaPrimary": "Rejoindre le club →",
+    "ctaSecondary": "Découvrir les disciplines",
+    "stats": [
+      {
+        "num": "BF1 / BF2",
+        "label": "Diplômes fédéraux"
+      },
+      {
+        "num": "15+",
+        "label": "Ans d'expérience coaching"
+      },
+      {
+        "num": "Nat.",
+        "label": "Arbitre national FFHM"
+      },
+      {
+        "num": "FFHM",
+        "label": "Club affilié"
+      }
+    ]
+  },
+  "ticker": [
+    "HALTÉROPHILIE OLYMPIQUE",
+    "TECHNIQUE & FORCE",
+    "COACHING FÉDÉRAL",
+    "CRÉÉ EN 2026",
+    "RUEIL-MALMAISON"
+  ],
+  "philosophy": {
+    "eyebrow": "Notre philosophie",
+    "titleLine1": "PAS UNE SALLE.",
+    "titleLine2": "UNE ÉCOLE DE LA BARRE.",
+    "lead": "Iron Barbell Club n'est pas un gym parmi d'autres : c'est un club dédié à l'haltérophilie olympique, où chaque séance est pensée pour construire de la technique avant de charger la barre.",
+    "checklist": [
+      "Coach certifié BF1/BF2, arbitre national FFHM",
+      "Plateaux dédiés à l'entraînement des mouvements olympiques",
+      "Programmation individualisée, du débutant au compétiteur",
+      "Club affilié FFHM, licence fédérale incluse",
+      "Entraînements à CrossFit Aslak, Carrières-sur-Seine"
+    ],
+    "cta": "Rencontrer le coach →",
+    "badgeNum": "2026",
+    "badgeLabel": "Année de création",
+    "imageAlt": "Christophe en plein mouvement d'arraché"
+  },
+  "disciplines": {
+    "eyebrow": "Nos programmes",
+    "titleLine1": "DISCIPLINES",
+    "titleLine2": "& PROGRAMMES",
+    "bannerAlt": "Athlètes d'Iron Barbell Club à l'entraînement, haltérophilie olympique",
+    "captionLeft": {
+      "tag": "Discipline olympique",
+      "title": "Haltérophilie"
+    },
+    "captionRight": {
+      "tag": "Haut niveau",
+      "title": "Prépa Compétition"
+    }
+  },
+  "quote": {
+    "textLine1": "LA FORCE NE VIENT PAS DU CORPS.",
+    "textLine2": "ELLE VIENT D'UNE",
+    "textAccent": "VOLONTÉ INDOMPTABLE.",
+    "author": "— Mahatma Gandhi"
+  },
+  "coach": {
+    "eyebrow": "Le fondateur",
+    "titleLine1": "15 ANS SUR",
+    "titleLine2": "LA PLATEFORME.",
+    "lead": "Président et coach d'Iron Barbell Club, formé aux méthodes fédérales et engagé dans le mouvement depuis près de 15 ans, comme athlète, entraîneur et arbitre.",
+    "photoAlt": "Christophe Chali, fondateur d'Iron Barbell Club avec une barre d'haltérophilie",
+    "creds": [
+      {
+        "title": "BF1 / BF2",
+        "desc": "Brevets fédéraux d'entraîneur FFHM"
+      },
+      {
+        "title": "Arbitre National",
+        "desc": "Officiel FFHM en compétition"
+      },
+      {
+        "title": "Président IBC",
+        "desc": "Fondateur du club, Rueil-Malmaison"
+      },
+      {
+        "title": "CrossFit Aslak",
+        "desc": "Entraînements à Carrières-sur-Seine"
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Nous rejoindre",
+    "titleLine1": "FORMULES",
+    "titleLine2": "& TARIFS",
+    "plans": [
+      {
+        "tag": "Adhérents Aslak",
+        "title": "Haltérophilie",
+        "amount": "190",
+        "currency": "€",
+        "period": "par an — licence FFHM incluse",
+        "features": [
+          "Cours haltérophilie olympique",
+          "Licence fédérale FFHM incluse",
+          "Réservé aux adhérents CrossFit Aslak"
+        ],
+        "cta": "S'inscrire",
+        "popular": false
+      },
+      {
+        "tag": "★ Formule club",
+        "title": "Haltérophilie",
+        "amount": "250",
+        "currency": "€",
+        "period": "par an — licence FFHM incluse",
+        "features": [
+          "Cours haltérophilie olympique",
+          "Licence fédérale FFHM incluse",
+          "Ouvert à tous, hors adhérents Aslak"
+        ],
+        "cta": "S'inscrire",
+        "popular": true
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Prendre contact",
+    "titleLine1": "PRÊT À",
+    "titleLine2": "TE DÉPASSER ?",
+    "lead": "Remplis le formulaire et on te répond sous 24h pour organiser une séance d'essai.",
+    "imageAlt": "Groupe Iron Barbell Club / CrossFit Aslak",
+    "form": {
+      "firstName": {
+        "label": "Prénom",
+        "placeholder": "Jean"
+      },
+      "lastName": {
+        "label": "Nom",
+        "placeholder": "Dupont"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "jean@email.com"
+      },
+      "phone": {
+        "label": "Téléphone",
+        "placeholder": "+33 6 XX XX XX XX"
+      },
+      "plan": {
+        "label": "Formule souhaitée",
+        "options": [
+          "Je ne sais pas encore...",
+          "Haltérophilie — Adhérents Aslak (190€/an)",
+          "Haltérophilie — Formule club (250€/an)"
+        ]
+      },
+      "message": {
+        "label": "Parle-nous de toi",
+        "placeholder": "Ton niveau, tes objectifs, tes questions..."
+      },
+      "submit": "Envoyer →",
+      "sending": "Envoi en cours...",
+      "success": "✓ Message envoyé ! On te répond sous 24h.",
+      "error": "Une erreur est survenue. Réessaie ou écris-nous directement par email."
+    }
+  },
+  "footer": {
+    "description": "Club d'haltérophilie olympique à Rueil-Malmaison. Entraîne. Suis. Compète.",
+    "navTitle": "Navigation",
+    "trainingTitle": "Entraînements",
+    "trainingLines": [
+      {
+        "label": "CrossFit Aslak",
+        "url": "https://crossfitaslak.com/"
+      },
+      {
+        "label": "Carrières-sur-Seine (78)"
+      },
+      {
+        "label": "Club basé à Rueil-Malmaison (92)"
+      }
+    ],
+    "followTitle": "Suivre",
+    "socials": [
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/iron_barbell_club"
+      }
+    ],
+    "copyright": "© 2026 Iron Barbell Club"
+  }
+}
